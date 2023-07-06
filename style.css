@@ -1,0 +1,49 @@
+body{
+   
+    column-rule: black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.content{
+    background-color: rgb(247, 247, 243);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    top: 20vh;
+    margin: 40px;
+    padding: 1rem;
+    width:90%;
+    height:10rem;
+    opacity: 0.5;
+    width: 85%;
+    height: 15rem;
+    align-items: baseline;
+    justify-self: start;
+}
+.timer{
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: rgb(249, 251, 246);
+    font-weight: bold;
+}
+#quote-input{
+    position: absolute;
+    resize: none;
+    background-color: rgb(252, 252, 249);
+    outline: none;
+    width: 80%;
+    height: 7rem;
+    margin: auto;
+}
+.correct{
+    color: green;
+}
+.incorrect{
+    color:red;
+}
